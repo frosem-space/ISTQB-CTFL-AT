@@ -1,3 +1,9 @@
+<p align="center"> <a href="https://www.istqb.org/certifications/certified-tester-foundation-level-agile-tester-ctfl-at/" title="Certified Tester Foundation Level Agile Tester (CTFL-AT)"> <img src="https://www.istqb.org/wp-content/uploads/2024/10/istqb-agile-tester-logo.jpg.avif" width="200" alt="ISTQB CTFL-AT Logo"/></img> </a> </p>
+
+
+# Chapter 1: Agile Software Development
+
+
 # 1.1 The Fundamentals of Agile Software Development
 
 Agile testers work differently from those in traditional projects. They must understand Agile values and principles, and collaborate closely with developers and business representatives. Early and frequent communication helps eliminate defects early and deliver high-quality products.
@@ -51,7 +57,7 @@ Daily stand-ups help identify progress and impediments.
 - Leverages diverse skill sets across the team to benefit the project.
 - Assigns responsibility for quality to the entire team.
 
-Testers actively participate in all stages, including:
+## Testers actively participate in all stages, including:
 
 - Supporting business stakeholders in defining acceptance tests.
 - Collaborating with developers on testing strategy.
@@ -125,15 +131,18 @@ Kanban and Scrum both use visual task tracking for transparency, with tasks movi
 
 ## 1.2.2 Collaborative User Story Creation
 
-In Agile, requirements are captured as user stories. These are created collaboratively by developers, testers, and business representatives.
+In Agile, requirements are captured as user stories. These are created collaboratively by developers, testers, and business representatives, this shared vision is accomplished through frequent informal reviews while the requirements are being written.
+
+In sequential development, this shared vision of a feature is accomplished through formal reviews after requirements are written.
 
 ### Key Concepts
 - User stories cover both functional and non-functional aspects.
-- Acceptance criteria are essential and must be defined together.
-- Testers contribute by refining user stories, identifying gaps, and confirming testability.
+- The acceptance criteria should be defined in collaboration between business representatives, developers, and testers. 
+- The team considers a task finished when a set of acceptance criteria have been satisfied.
+- Testers contribute by identifying gaps in the user story (missing details or non-functional requirements), by asking business representatives open-ended questions and confirming testability of the acceptance criteria.
 
 ### Techniques
-- **Brainstorming and mind mapping** help in collaborative story creation.
+- **Brainstorming and mind mapping** help in collaborative authorship story creation.
 - **INVEST** criteria define quality user stories:
   - Independent
   - Negotiable
@@ -143,72 +152,103 @@ In Agile, requirements are captured as user stories. These are created collabora
   - Testable
 
 ### 3C Model
-- **Card**: Describes the story and key information.
-- **Conversation**: Facilitates shared understanding.
-- **Confirmation**: Validates completion through acceptance tests.
+- **Card**: Describes the story identifying the requirements, criticality, expected development/test duration and the acceptance criteria.
+- **Conversation**: Facilitates shared understanding on how the software will be used, the team members brings valuable input to the exchange of thoughts, opinions and experiences.
+- **Confirmation**: Validates completion through acceptance tests. Both positive and negative tests should be used to cover the criteria. During confirmation, various participants play the role of a tester.
 
-Documentation should be minimal but sufficient for clarity.
+Documentation should be minimal but concise, sufficient, and necessary.
 
 ## 1.2.3 Retrospectives
 
-Retrospectives are held at the end of each iteration to assess what worked, what didn’t, and what to improve.
+In Agile, a retrospective is a meeting held at the end of each iteration to discuss what worked, what didn’t, and what to improve.
 
 ### Purpose and Scope
 - Topics include team dynamics, tools, processes, and relationships.
 - Aim to support continual improvement in a trusted environment.
 
 ### Tester Involvement
-- Testers offer input from a unique perspective.
-- Retrospectives can target test-related improvements (e.g., test quality, coverage).
-
-Changes should be incremental to allow sustainable progress.
+- It can result in test-related improvement decisions focused on test effectiveness, test productivity, test case quality, and team satisfaction.
+- Testers are part of the team and bring their unique perspective.
+- All team members, testers and non-testers, can provide input on both testing and non-testing activities.
 
 ## 1.2.4 Continuous Integration
 
-Continuous integration ensures that software is integrated, built, and tested frequently—often multiple times a day.
+In Agile, continuous integration is used to ensure that software is always in a working, testable state. All changes are merged and integrated frequently, at least once per day.
 
-### Key Activities
-- Static code analysis
-- Compilation
-- Unit and integration testing
-- Deployment to test environments
-- Automated reporting (dashboards, emails)
+### Automated activities include:
+- **Static code analysis**: Running analysis tools.
+- **Compile**: Creating executable files.
+- **Unit test**: Running tests and measuring coverage.
+- **Deploy**: Installing in test environment.
+- **Integration test**: Running integration tests.
+- **Report**: Publishing status to dashboard/email.
 
-### Benefits
-- Early detection of integration issues
-- Rapid feedback on quality
-- Consistent availability of a testable product
-- Reduced regression risks
-- Transparent progress
+This automation allows early detection of integration errors, provides fast feedback on code quality, and supports test execution throughout the sprint.
 
-### Challenges
-- Requires robust tools and infrastructure
-- High initial investment in test automation
-- Risks of relying too heavily on unit tests
+Agile testers can focus manual testing on new features and defect fixes while relying on automated regression tests for previously delivered functionality.
 
-Continuous integration supports frequent delivery and ongoing quality control.
+Additional tools can enhance quality control by executing performance tests, generating documentation, and automating deployments across environments.
+
+### Benefits of continuous integration include:
+
+1. Faster detection and root cause analysis of integration issues.
+2. Regular feedback to the team on software stability.
+3. Keeps the version between development and testing within a day.
+4. Reducing risk from refactoring through rapid re-testing.
+5. Daily confirmation that the software remains stable.
+6. Making progress visible, which helps maintain motivation.
+7. Eliminating the risk of last-minute "big bang" integration.
+8. Ensuring testable, deployable software is always available.
+9. Reducing repetitive manual testing.
+10. Providing faster feedback on quality decisions.
+
+### Risks and challenges include:
+
+1. Need for ongoing setup and maintenance of integration tools.
+2. Complexity in defining and maintaining the integration process.
+3. Effort required to establish automated tests and maintain coverage.
+4. Overreliance on unit tests, with insufficient system and acceptance testing
+
+Effective use of continuous integration requires tools for version control, build automation, deployment, and test automation.
 
 ## 1.2.5 Release and Iteration Planning
 
-Planning in Agile includes both **release planning** (long-term) and **iteration planning** (short-term).
+Agile planning involves two levels: **release planning** and **iteration planning**.
 
 ### Release Planning
-- Focuses on product vision and backlog prioritization.
-- Testers contribute by:
-  - Defining testable stories and acceptance criteria
-  - Analyzing risks and estimating test effort
-  - Determining test levels and planning test activities
+
+Release planning focuses on defining the product backlog and planning across multiple iterations. It may span months ahead and helps form a high-level test approach.
+
+### Tester contributions in release planning include:
+
+- Defining testable user stories with clear acceptance criteria.
+- Participating in project and quality risk analysis.
+- Estimating test effort with the user stories.
+- Planning test levels and test activities across iterations.
 
 ### Iteration Planning
-- Focuses on selecting and detailing stories for the next sprint.
-- Testers contribute by:
-  - Analyzing risk and testability of stories
-  - Creating acceptance tests and test tasks
-  - Estimating effort and supporting automation
 
-### Planning Considerations
-- Scope, test environment, data needs
-- Task dependencies and sequencing
-- Risk-driven prioritization
+Iteration planning focuses on the scope of a single iteration. The team selects user stories based on priority and capacity, performs detailed analysis, and defines tasks.
 
-Plans can change due to internal (velocity, technical issues) or external (market shifts) factors. Testers must adapt while maintaining quality planning and documentation.
+### Tester roles in iteration planning include:
+
+- Analyzing user stories risks.
+- Determining story testability.
+- Creating acceptance tests.
+- Defining and estimating testing tasks.
+- Identifying functional and non-functional testing needs.
+- Supporting test automation for the selected stories.
+
+### Planning Considerations and Adaptability
+
+Release and iteration plans may change due to internal (velocity, delivery capacity) or external (market changes, competition) factors. Agile testers must adapt quickly while maintaining a clear understanding of test objectives and strategy. Testing must be planned in parallel with development.
+
+### Test planning aspects include:
+
+- Scope and extent of testing, including goals and reasons for these decision.
+- Roles and responsibilities in test activities.
+- Test environments and data requirements.
+- Test schedules, dependencies, and frequency.
+- Risks to address and their impact on planning.
+
+In addition, the larger team estimation effort should include consideration of the time and effort needed to complete the required testing activities.
