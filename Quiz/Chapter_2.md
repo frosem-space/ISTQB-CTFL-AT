@@ -1,6 +1,6 @@
 # Chapter 2: Fundamental Agile Testing Principles, Practices, and Processes [ QUIZ ]
 
-## K1 – Recall (1 Question)
+## K1 – Remember (1 Question)
 
 1. **Which of the following best defines a user story in Agile?**  
    a) A formal document listing system-level test cases  
