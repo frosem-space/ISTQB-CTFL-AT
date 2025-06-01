@@ -3,6 +3,20 @@
 
 # Chapter 2: Fundamental Agile Testing Principles, Practices, and Processes
 
+| K-Level | Question Distribution | Learning Objective                                                                                         | Number of Questions |
+|---------|------------------------|------------------------------------------------------------------------------------------------------------|----------------------|
+| K1      | Keywords               | Recall relevant terms                                                                                      | 1                    |
+| K2      | FA-2.1.1               | Describe the differences between testing activities in Agile and non-Agile projects                        | 1                    |
+| K2      | FA-2.1.2               | Describe how development and testing activities are integrated in Agile projects                           | 1                    |
+| K2      | FA-2.1.3               | Describe the role of independent testing in Agile projects                                                 | 2                    |
+| K2      | FA-2.2.1               | Describe tools and techniques used to communicate testing status, test progress, and product quality       | 2                    |
+| K2      | FA-2.2.2               | Describe test evolution and the role of automation in regression risk management in Agile                  | 2                    |
+| K2      | FA-2.3.1               | Understand the skills (people, domain, testing) of a tester in an Agile team                               | 1                    |
+| K2      | FA-2.3.2               | Understand the role of a tester within an Agile team                                                       | 2                    |
+
+**Total Questions for Chapter 2: 12**   
+K1 = 1, K2 = 11, K3 = 0     
+Total Points: 12
 
 ## 2.1 The Differences Between Testing in Traditional and Agile Approaches
 

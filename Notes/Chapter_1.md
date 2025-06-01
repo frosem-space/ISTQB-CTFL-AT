@@ -3,6 +3,20 @@
 
 # Chapter 1: Agile Software Development
 
+| K-Level | Question Distribution | Learning Objective                                                                                         | Number of Questions |
+|---------|------------------------|------------------------------------------------------------------------------------------------------------|----------------------|
+| K1      | FA-1.1.1               | Recall the basic concept of Agile software development based on the Agile Manifesto                        |                     |
+| K1      | FA-1.2.1               | Recall Agile software development approaches                                                               | 5                    |
+| K1      | FA-1.2.5               | Know the differences between iteration and release planning, and how a tester adds value                   |                    |
+| K2      | FA-1.1.2               | Understand the advantages of the whole-team approach                                                       | 2                    |
+| K2      | FA-1.1.3               | Understand the benefits of early and frequent feedback                                                      | 2                    |
+| K2      | FA-1.2.3               | Understand how retrospectives can be used as a mechanism for process improvement in Agile projects         | 2                    |
+| K2      | FA-1.2.4               | Understand the use and purpose of continuous integration                                                    | 1                    |
+| K3      | FA-1.2.2               | Write testable user stories in collaboration with developers and business representatives                  | 1                    |
+
+**Total Questions for Chapter 1: 13**  
+K1 = 5, K2 = 7, K3 = 1  
+Total Points: 13
 
 # 1.1 The Fundamentals of Agile Software Development
 

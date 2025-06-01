@@ -3,6 +3,26 @@
 
 # 3. Agile Testing Methods, Techniques, and Tools
 
+| K-Level | Question Distribution | Learning Objective                                                                                         | Number of Questions |
+|---------|------------------------|------------------------------------------------------------------------------------------------------------|----------------------|
+| K1      | Keywords               | Recall relevant terms                                                                                      |                     |
+| K1      | FA-3.1.1               | Recall test-driven, acceptance test-driven, and behavior-driven development concepts                       | 4                    |
+| K1      | FA-3.1.2               | Recall the concept of the test pyramid                                                                     |                     |
+| K1      | FA-3.4.1               | Recall different tools available to testers in Agile projects                                              |                     |
+| K2      | FA-3.1.3               | Summarize testing quadrants and their relation to levels and types                                         | 2                    |
+| K2      | FA-3.3.2               | Explain to business stakeholders how to define testable acceptance criteria                                | 2                    |
+| K3      | FA-3.1.4               | Practice the role of a tester in a Scrum team                                                              | 1                    |
+| K3      | FA-3.2.1               | Assess quality risks within an Agile project                                                               | 1                    |
+| K3      | FA-3.2.2               | Estimate testing effort based on iteration content and quality risks                                       | 1                    |
+| K3      | FA-3.3.1               | Interpret relevant information to support testing activities                                               | 1                    |
+| K3      | FA-3.3.3               | Write acceptance test-driven development test cases for a given user story                                 | 1                    |
+| K3      | FA-3.3.4               | Write black-box test cases for both functional and non-functional behavior based on user stories          | 1                    |
+| K3      | FA-3.3.5               | Perform exploratory testing to support Agile project testing                                               | 1                    |
+
+**Total Questions for Chapter 3: 15**   
+K1 = 4, K2 = 4, K3 = 7     
+Total Points: 15
+
 ## 3.1 Agile Testing Methods
 
 Agile encourages early testing and quality activities across the lifecycle. Practices such as defining tests before coding, preventing defects early, and running the right tests at the right level and time are central. Testers help introduce and apply these practices from the beginning of the project.
