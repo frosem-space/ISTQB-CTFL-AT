@@ -23,7 +23,7 @@
    b) Stand-up  
    c) Sprint Review  
    d) Sprint Retrospective  
-   **Answer**: ***d) Sprint Review***  
+   **Answer**: ***c) Sprint Review***  
    **Explanation**: The Sprint Review allows stakeholders to inspect the increment and provide feedback.
 
 4. **What is a characteristic of Agile testing compared to traditional testing?**  
@@ -67,9 +67,9 @@
    **Explanation**: The daily stand-up allows the team to sync on progress and blockers.
 
 9. **Which term refers to a deliverable produced at the end of a sprint?**  
-   a) User story  
+   a) Increment  
    b) Task  
-   c) Increment  
+   c) User story  
    d) Sprint backlog  
    **Answer**: ***a) Increment***  
    **Explanation**: The increment is a working piece of the product that could potentially be released.
@@ -79,7 +79,7 @@
     b) Release log  
     c) Design spec  
     d) User manual  
-    **Answer**: ***c) Product backlog***  
+    **Answer**: ***a) Product backlog***  
     **Explanation**: The product backlog lists features, bugs, and other work items.
 
 ---
@@ -91,7 +91,7 @@
     b) It’s cheaper than online tools  
     c) It allows faster, clearer information sharing  
     d) It supports time zone collaboration  
-    **Answer**: ***a) It allows faster, clearer information sharing***  
+    **Answer**: ***c) It allows faster, clearer information sharing***  
     **Explanation**: Face-to-face conversations promote understanding and quick decisions.
 
 12. **How does Agile respond to change during development?**  
@@ -115,7 +115,7 @@
     b) To fix release dates  
     c) To create urgency and focus  
     d) To match contract terms  
-    **Answer**: ***d) To create urgency and focus***  
+    **Answer**: ***c) To create urgency and focus***  
     **Explanation**: Timeboxes help teams stay on track and deliver within set intervals.
 
 15. **How does Agile improve quality through collaboration?**  
@@ -123,21 +123,21 @@
     b) By involving stakeholders, developers, and testers throughout  
     c) By separating roles strictly  
     d) By outsourcing QA  
-    **Answer**: ***c) By involving stakeholders, developers, and testers throughout***  
+    **Answer**: ***b) By involving stakeholders, developers, and testers throughout***  
     **Explanation**: Quality is owned by the whole team and built into the process.
 
 16. **What is the tester’s role in story refinement?**  
     a) Remove redundant stories  
-    b) Clarify acceptance criteria  
+    b) Review deployment scripts  
     c) Update project timelines  
-    d) Review deployment scripts  
+    d) Clarify acceptance criteria  
     **Answer**: ***d) Clarify acceptance criteria***  
     **Explanation**: Testers ensure user stories are understandable and testable.
 
 17. **Why are retrospectives important?**  
     a) To deliver user stories  
-    b) To finalize release notes  
-    c) To reflect and improve as a team  
+    b) To reflect and improve as a team  
+    c) To finalize release notes  
     d) To assign tasks  
     **Answer**: ***b) To reflect and improve as a team***  
     **Explanation**: Teams use retrospectives to inspect and adapt their process.
@@ -180,9 +180,9 @@
 
 22. **During a sprint, testing reveals unexpected behavior. What should the tester do?**  
     a) Wait for the retrospective  
-    b) Report it to the Product Owner immediately  
+    b) Skip testing to meet deadlines  
     c) Remove the story  
-    d) Skip testing to meet deadlines  
+    d) Report it to the Product Owner immediately  
     **Answer**: ***d) Report it to the Product Owner immediately***  
     **Explanation**: Agile encourages early feedback and quick response to issues.
 
@@ -226,7 +226,7 @@
     **Answer**: ***c) A test charter with purpose and scope***  
     **Explanation**: Charters guide exploratory sessions by focusing the tester's intent.
 
-28. **During a demo, a user raises a new idea. What should the team do?**  
+28. **During a demo, a stakeholder raises a new idea. What should the team do?**  
     a) Add it immediately to the sprint  
     b) Ignore it  
     c) Discuss it and log it as a new backlog item  
